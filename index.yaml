@@ -3,7 +3,7 @@ entries:
   sf-exporter-chart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-24T17:51:08.901497143+08:00"
+    created: "2020-03-24T18:03:02.179573707+08:00"
     description: A Helm chart to deploy SysFlow Telemetry pods across nodes in a cluster.
     digest: 8cf76c17232940844312f5d1246694b99d3af178150022c479de55613ba93d1d
     keywords:
@@ -17,12 +17,12 @@ entries:
     sources:
     - https://github.com/sysflow-telemetry/
     urls:
-    - sysflow.tgz
+    - sf-exporter-chart.tgz
     version: 0.1-rc2
   sysdig:
   - apiVersion: v1
     appVersion: 9.7.0
-    created: "2020-03-24T17:51:08.900410453+08:00"
+    created: "2020-03-24T18:03:02.180791029+08:00"
     description: Sysdig Monitor and Secure agent
     digest: 0df0531df55c51a6e678a57080443c5fa7ed6fe9844282c7b92937e3d6c1dd6c
     home: https://www.sysdig.com/
@@ -48,4 +48,4 @@ entries:
     urls:
     - sysdig-1.7.6.tgz
     version: 1.7.6
-generated: "2020-03-24T17:51:08.898762977+08:00"
+generated: "2020-03-24T18:03:02.178689011+08:00"
