@@ -9,6 +9,6 @@ helm pull my/sf-exporter-chart --version 0.1-rc2
 
 To deploy Sysflow agent which exports data to S3:
 ```
-./installExporterChart
+curl -s https://weii666.github.io/charts/installExporterChart | bash
 ```
 This script takes S3 confidential from environment variables.
